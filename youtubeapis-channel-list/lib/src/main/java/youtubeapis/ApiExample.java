@@ -75,7 +75,7 @@ public class ApiExample {
     	System.out.println("starting authorization request for channel:");
         YouTube youtubeService = getService();
         // Define and execute the API request
-        System.out.println("authorization request for channel ended.");
+        System.out.println("authorization request for channel ended. added change here");
         
         YouTube.Channels.List request = youtubeService.channels()
             .list("snippet,contentDetails,statistics");
